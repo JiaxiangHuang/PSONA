@@ -8,15 +8,10 @@ Huang J, Gong M, Ma L. A global network alignment method using discrete particle
 
 ## Reproducing Results
 
-### Code
-
-Run:
+### Run
 
 ```
-Rename the "PSONA-main" file to "PSONA".
-
-Copy the "PSONA" file to root of D:\\.
-If you want to change the name or path of file, please change the 10th row in PSONA.m. 
+Copy the "PSONA" file to root of D:\\, or change the path setting "dir_root='D:\PSONA\'" (10th row in PSONA.m) to current download file path.
 
 Open run_PSONA.m file and just run.
 ```
@@ -39,11 +34,17 @@ It contains five major eukaryotic PPInetworks: H. sapiens (Human), M. musculus (
 
 The isolate nodes and the duplicate edges are removed by ourselves.
 
+```
 [1] D. Park, R. Singh, M. Baym, C.-S. Liao, B. Berger, Isobase: a database of functionally related proteins across ppi networks, Nucleic acids research 39 (suppl 1) (2010) D295–D300.
 
 [2] G. Kollias, M. Sathe, S. Mohammadi, A. Grama, A fast approach to global alignment of protein-protein interaction networks, BMC research notes 6 (1) (2013) 35.
+```
+
+
 
 ## Citation
+
+If you find the code helpful, please cite it as follows:
 
 ```
 @article{huang2016global,
