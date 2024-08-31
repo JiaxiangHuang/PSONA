@@ -12,7 +12,7 @@ Huang J, Gong M, Ma L. A global network alignment method using discrete particle
 
 ```
 Copy the "PSONA" file to root of D:\\, 
-or change the path setting "dir_root='D:\PSONA\'" (10th row in PSONA.m) to current download file path.
+or change the path "dir_root='D:\PSONA\'" (The 10th row in PSONA.m) to download file path.
 
 Open run_PSONA.m file and just run.
 ```
@@ -24,14 +24,14 @@ sparse_to_csr.m and scomponents.m are from David Gleich in https://www.cs.purdue
 Data are in "ABH" file, e.g.:
 
 ```
-AB_ce_dm.mat   (Two PPI networks: ce, dm)
+AB_ce_dm.mat (Two PPI networks: ce, dm)
 
-H_ce_dm.mat    (BLAST scores between network ce and the other network dm)
+H_ce_dm.mat  (BLAST scores between network ce and the other network dm)
 ```
 
 The dataset can also be acquired from Isobase [1] in http://cb.csail.mit.edu/cb/mna/isobase/ (data version: 2014/4/14), or MAT3 [3] in http://compbio.soihub.org/projects/fastalign/
 
-It contains five major eukaryotic PPInetworks: H. sapiens (Human), M. musculus (Mouse), D. melanogaster (Fly), C. elegans (Worm), and S. cerevisiae (Yeast), originally from BioGRID, DIP, and HPRD databases. 
+It contains five major eukaryotic PPI networks: H. sapiens (Human), M. musculus (Mouse), D. melanogaster (Fly), C. elegans (Worm), and S. cerevisiae (Yeast), originally from BioGRID, DIP, and HPRD databases. 
 
 The isolate nodes and the duplicate edges are removed by ourselves.
 
