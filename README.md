@@ -11,8 +11,8 @@ Huang J, Gong M, Ma L. A global network alignment method using discrete particle
 ### Run
 
 ```
-Copy the "PSONA" file to root of D:\\, 
-or change the path "dir_root='D:\PSONA\'" (The 10th row in PSONA.m) to download file path.
+Copy the <PSONA> fold to root of "D:\\", 
+or change the path "dir_root='D:\PSONA\'" (at the 10th row in PSONA.m) to current <PSONA> fold path.
 
 Open run_PSONA.m file and just run.
 ```
