@@ -11,10 +11,10 @@ Huang J, Gong M, Ma L. A global network alignment method using discrete particle
 ### Run
 
 ```
-Copy the <PSONA> fold to root of "D:\\", 
-or change the path "dir_root='D:\PSONA\'" (at the 10th row in PSONA.m) to current <PSONA> fold path.
+Copy the <PSONA> folder to the root of "D:\",
+or change the path dir_root = 'D:\PSONA\' (on the 10th line of the PSONA.m file) to the current <PSONA> folder path.
 
-Open run_PSONA.m file and just run.
+Open the run_PSONA.m file and run it.
 ```
 
 sparse_to_csr.m and scomponents.m are from David Gleich in https://www.cs.purdue.edu/homes/dgleich/codes/netalign/.
@@ -29,15 +29,15 @@ AB_ce_dm.mat (Two PPI networks: ce, dm)
 H_ce_dm.mat  (BLAST scores between network ce and the other network dm)
 ```
 
-The dataset can also be acquired from Isobase [1] in http://cb.csail.mit.edu/cb/mna/isobase/ (data version: 2014/4/14), or MAT3 [3] in http://compbio.soihub.org/projects/fastalign/
+The dataset can also be acquired from Isobase [1] in http://cb.csail.mit.edu/cb/mna/isobase/ (data version: 2014/4/14), or MAT3 [2] in http://compbio.soihub.org/projects/fastalign/.
+
+*[1] D. Park, R. Singh, M. Baym, C.-S. Liao, B. Berger, Isobase: a database of functionally related proteins across ppi networks, Nucleic acids research 39 (suppl 1) (2010) D295–D300.*
+
+*[2] G. Kollias, M. Sathe, S. Mohammadi, A. Grama, A fast approach to global alignment of protein-protein interaction networks, BMC research notes 6 (1) (2013) 35.*
 
 It contains five major eukaryotic PPI networks: H. sapiens (Human), M. musculus (Mouse), D. melanogaster (Fly), C. elegans (Worm), and S. cerevisiae (Yeast), originally from BioGRID, DIP, and HPRD databases. 
 
 The isolate nodes and the duplicate edges are removed by ourselves.
-
-[1] D. Park, R. Singh, M. Baym, C.-S. Liao, B. Berger, Isobase: a database of functionally related proteins across ppi networks, Nucleic acids research 39 (suppl 1) (2010) D295–D300.
-
-[2] G. Kollias, M. Sathe, S. Mohammadi, A. Grama, A fast approach to global alignment of protein-protein interaction networks, BMC research notes 6 (1) (2013) 35.
 
 
 
